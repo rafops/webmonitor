@@ -11,5 +11,5 @@ docker build -t webmonitor .
 ## Run
 
 ```
-docker run webmonitor "https://www.nytimes.com"
+docker run webmonitor "https://www.nytimes.com" 2>/dev/null
 ```
